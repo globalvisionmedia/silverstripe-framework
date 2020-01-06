@@ -40,6 +40,8 @@ For example, on OS X, you might use a subdirectory of `~/Sites`.
 As long as your web server is up and running, this will get all the code that you need.
 Now visit the site in your web browser, and the installation process will be completed.
 
+When installing SilverStripe or SilverStripe extensions under WAMP, apache may not recognise the symbolic links. If you find that your installation is not working correctly, you may need to duplicate files to the location of links.
+
 You can also specify a version to download that version explicitly, i.e. this will download the older `4.3.3` release:
 
 ```
